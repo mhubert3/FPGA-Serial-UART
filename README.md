@@ -1,7 +1,7 @@
-# VHDL RS-232 UART Transceiver 
+# VHDL UART Transceiver 
 
 ## Overview
-This repository contains a fully synthesizable RS-232 Universal Asynchronous Receiver-Transmitter (UART) implemented in VHDL. The project features a customized finite state machine (FSM) architecture for both the transmitter and receiver, designed to interface with peripheral microcontrollers and a host PC via a MATLAB-based software GUI.
+This repository contains a fully synthesizable Universal Asynchronous Receiver-Transmitter (UART) implemented in VHDL. The project features a customized finite state machine (FSM) architecture for both the transmitter and receiver, designed to interface with peripheral microcontrollers and a host PC via a MATLAB-based software GUI.
 
 This project was developed and tested on an FPGA development board, utilizing cycle-accurate simulations and hardware-in-the-loop verification to ensure robust asynchronous serial communication.
 
@@ -33,7 +33,7 @@ The design includes a robust VHDL testbench (`uart_tb.vhd`) to validate asynchro
 * `/tb` - Self-checking VHDL simulation testbench.
 * `/constraints` - XDC pin mapping for the 12 MHz clock and PMOD headers.
 * `/scripts` - MATLAB GUI script for hardware interfacing.
-* `/docs` - Project specifications and RS-232 protocol references.
+* `/docs` - Project specifications and serial protocol references.
 
 ## Technologies & Tools
 * **Hardware Description Language:** VHDL
